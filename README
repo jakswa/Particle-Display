@@ -1,0 +1,10 @@
+git push steps....
+
+mkdir asdf
+cd asdf
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:jakswa/asdf.git
+git push origin master
