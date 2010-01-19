@@ -1,8 +1,13 @@
-git push steps....
+Working on particle display for Dr. Keller.
 
-mkdir asdf
-cd asdf
-git init
+Just getting display to work at first.
+
+To compile (gtkmm required):  
+g++ -o test main.cc myarea* `pkg-config gtkmm-2.4 --cflags --libs`
+
+
+git push steps
+==============
 touch README
 git add README
 git commit -m 'first commit'
